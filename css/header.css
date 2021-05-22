@@ -234,12 +234,30 @@ header nav ul a li:hover {
 
     }
 
-    #inputCheckbox:checked ~  .barsCheckbox {
+}
+
+@media(max-width: 520px) {
+
+    header {
+
+        flex-direction: column;
+
+    }
+
+    header .divisoriaLogo {
+
+        margin-bottom: 2rem;
+
+    }
+
+    #inputCheckbox:checked ~ .labelCheckbox {
+
+        transform: translateY(-80px);
         
-        transform: translateX(-50px);
+        z-index: 1;
+
+        transition: 0.2s;
 
     }
 
 }
-
-
