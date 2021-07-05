@@ -250,9 +250,15 @@ header nav ul a li:hover {
 
     }
 
+    header nav ul {
+
+        margin-top: 7rem;
+
+    }
+
     #inputCheckbox:checked ~ .labelCheckbox {
 
-        transform: translateY(-80px);
+        transform: translateY(-60px);
         
         z-index: 1;
 
